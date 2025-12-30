@@ -20,7 +20,6 @@
     align-items: center;
     gap: 30px;
     text-align: center;
-    margin: 20px 0px;
     overflow: scroll;
 }
 
@@ -33,7 +32,12 @@
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
-    transition: 0.2s;
+    padding: 20px 10px;
+    transition: transform 0.3s ease;
+}
+
+.explore-menu-list-item img:hover{
+    transform: scale(1.1);
 }
 
 .explore-menu-list-item p{
